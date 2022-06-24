@@ -1,6 +1,7 @@
 import torch
+from google.colab import drive
 
-print('PyTorch')
+drive.mount('/content/drive', force_remount=True)
 
 x = troch.rand(3)
 print(x)
