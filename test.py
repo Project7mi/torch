@@ -6,3 +6,5 @@ print(x)
 torch.cuda.is_available()
 
 !nvidia-smi
+
+print('PyTorch')
